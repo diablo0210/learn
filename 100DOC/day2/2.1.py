@@ -6,4 +6,5 @@ z = input("What percentage tip would you like to give?\n")
 a = float(x) * float(z) / 100 #total tip
 b = float(x) + float(a) #total amount after tip
 c = float(b)/float(y) #final amount per person
-print("Each person should pay:\n", c)
+d = round(c, 2)
+print(f"Each person should pay {d}.")
