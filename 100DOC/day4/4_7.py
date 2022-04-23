@@ -21,17 +21,16 @@ elif comp == 2:
 if choice == comp:
     print("Its a Draw!")
 if choice == 0 and comp == 1:
-    print("The Computer Won!")
+    print("You Lost!")
 if choice == 0 and comp == 2:
     print("You Won!")
 if choice == 1 and comp == 0:
     print("You Won!")
 if choice == 1 and comp == 2:
-    print("The Computer Won!")
+    print("You Lost!")
 if choice == 2 and comp == 0:
-    print("The Computer Won!")
+    print("You Lost!")
 if choice == 2 and comp == 1:
     print("You Won!")
-
 
 
